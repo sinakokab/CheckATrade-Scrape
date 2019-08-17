@@ -22,9 +22,6 @@ def CheckDirectory(Directory, File):
         return d
 
 def generate_url(page, primaryurl):
-    #open a file w/ postcodes.
-    #postcode = str() # insert file opening code
-
     if primaryurl == True:
         print("Generating new root URL")
         global PostCode
