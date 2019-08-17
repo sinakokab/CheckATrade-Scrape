@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+pysqlite = "*"
+bs4 = "*"
+httplib2 = "*"
+python-whois = "*"
+pywhois = "*"
+
+[requires]
+python_version = "2.7"
